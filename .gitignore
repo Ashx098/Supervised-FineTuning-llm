@@ -1,0 +1,36 @@
+# Virtual environments
+.venv/
+sftenv/
+**/pyvenv.cfg
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+*.env
+
+# Lock/package files
+poetry.lock
+Pipfile.lock
+*.log
+
+# OS
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Misc
+*.swp
+
+# Shell scripts
+*.sh
+
+# Workspace
+s_finetuning/sft/workspace/

@@ -1,0 +1,6947 @@
+  [
+    {
+      "query": "Hi there! How's your day going?",
+      "data": {
+        "answer": "Hello! My day is going well, thank you for asking. How can I assist you today?",
+        "queryRewrite": null,
+        "temporalDirection": null,
+        "isFollowUp": false,
+        "type": "SearchWithoutFilters",
+        "filterQuery": null,
+        "filters": {
+          "app": null,
+          "entity": null,
+          "count": null,
+          "startTime": null,
+          "endTime": null,
+          "sortDirection": null,
+          "intent": {}
+        }
+      }
+    },
+    {
+      "query": "Show me all emails from john.doe@example.com received last week.",
+      "data": {
+        "answer": null,
+        "queryRewrite": null,
+        "temporalDirection": null,
+        "isFollowUp": false,
+        "type": "SearchWithFilters",
+        "filterQuery": null,
+        "filters": {
+          "app": "gmail",
+          "entity": "mail",
+          "count": null,
+          "startTime": "2024-10-27T00:00:00",
+          "endTime": "2024-11-03T23:59:59",
+          "sortDirection": "desc",
+          "intent": {
+            "from": [
+              "john.doe@example.com"
+            ]
+          }
+        }
+      }
+    },
+  {
+    "query": "What's the date today?",
+    "data": {
+      "answer": "Today is November 3rd, 2024.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find recent spreadsheets from the marketing team in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What are my upcoming meetings next week?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello, what's the weather like in London?",
+    "data": {
+      "answer": "Hello! I'm afraid I don't have access to real-time information, such as weather updates.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me the oldest emails from last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all PDF files in my Google Drive related to the 'Project Zenith'.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Zenith",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Good morning!  What's the time in New York?",
+    "data": {
+      "answer": "Good morning! I do not have access to real-time information, such as time zone information.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all documents and spreadsheets modified in the last 24 hours.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": "2024-11-02T23:59:59",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails to jane.doe@example.com about the budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "budget",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "What did I ask previously?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": true,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find presentations related to Q4 2024.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q4 2024",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey!  Anything new in Slack?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me the latest calendar events.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What's up?",
+    "data": {
+      "answer": "Not much, just here to help!  What can I do for you?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me a summary of all recent files.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find emails with attachments from last year.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2023-11-03T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me my contacts from Google Workspace who work in sales.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "sales",
+      "filters": {
+        "app": "google-workspace",
+        "entity": "Contacts",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from john.doe@example.com received in the last week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-26T00:00:00",
+        "endTime": "2024-11-02T23:59:59",
+        "sortDirection": "desc",
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheet related to Q4 projections.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q4 projections",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Good morning!  What are my upcoming meetings?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all documents from last month in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2024-10-02T00:00:00",
+        "endTime": "2024-11-01T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails to jane.doe@example.com about the project?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "What's the weather like in London?",
+    "data": {
+      "answer": "I'm sorry, I don't have access to real-time information like weather forecasts.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me the oldest files in my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey there!",
+    "data": {
+      "answer": "Hello! How can I assist you?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me a summary of recent Slack messages from the #marketing channel.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "#marketing",
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What time is it in Tokyo?",
+    "data": {
+      "answer": "I do not have access to real-time information, such as the current time in different time zones.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find presentations related to the Alpha project from the last two weeks.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Alpha project",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": "2024-10-19T00:00:00",
+        "endTime": "2024-11-01T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What did I ask earlier?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": true,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me PDFs related to marketing from this year.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-01-01T00:00:00",
+        "endTime": "2024-12-31T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello, is everything alright?",
+    "data": {
+      "answer": "Hello! Yes, everything is alright on my end. How can I help you?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all emails with 'urgent' in the subject line sent to me.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "urgent",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all contacts whose names start with 'A'.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "names start with 'A'",
+      "filters": {
+        "app": "google-workspace",
+        "entity": "Contacts",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me the latest updates on the project from the last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project",
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": "2024-10-02T00:00:00",
+        "endTime": "2024-11-01T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hi there!",
+    "data": {
+      "answer": "Hello! How can I assist you today?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from last week related to the 'Project X' budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project X budget",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheets from the marketing team in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What time is my next meeting?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails from john.doe@example.com about the new project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "new project",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Good morning!",
+    "data": {
+      "answer": "Good morning to you too!",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List the oldest files in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all PDF files related to the marketing campaign from last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing campaign",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-09-28T00:00:00",
+        "endTime": "2024-10-27T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey, how are you doing today?",
+    "data": {
+      "answer": "I'm doing well, thank you! How about you?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me a summary of recent Slack messages from the #project-alpha channel.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project-alpha",
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me presentations from John Smith in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "John Smith",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find emails sent to jane.doe@example.com and cc'd to team@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ],
+          "cc": [
+            "team@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "What are my upcoming meetings for next week?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello, is there anything new in my inbox?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me documents related to the Alpha project from Google Drive, sorted by oldest first.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Alpha project",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What is my schedule for tomorrow?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-05T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all documents related to the \"Project Zenith\" from last week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Zenith",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What's the weather like in London today?",
+    "data": {
+      "answer": "I'm sorry, I do not have access to real-time information, such as weather updates.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me the oldest emails from john.doe@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Hey there, how's it going?",
+    "data": {
+      "answer": "I'm doing well, thanks for asking! How about you?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find spreadsheets related to Q3 budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q3 budget",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What did I ask before?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": true,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from last month with the subject 'Project X'.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project X",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-01T00:00:00",
+        "endTime": "2024-10-31T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all PDF files in my Drive related to marketing.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails to jane.doe@example.com and cc'd to team@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ],
+          "cc": [
+            "team@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me presentations from the last two weeks.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": "2024-10-20T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all files related to the 'Alpha Project' in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Alpha Project",
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "How are you today?",
+    "data": {
+      "answer": "I am functioning optimally, thank you for asking.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Get me the latest emails from David.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {
+          "from": [
+            "David"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me all events scheduled for next month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-01T00:00:00",
+        "endTime": "2024-11-30T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from john.doe@example.com from last week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find the latest Google Slides presentation about the Q4 project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q4 project",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me the oldest emails in my inbox.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey there!  What's the weather like in London today?",
+    "data": {
+      "answer": "I'm sorry, I don't have access to real-time weather information.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all documents from the marketing team in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me recent spreadsheets related to the budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "budget",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails to jane.doe@example.com about the project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find all PDF files in my Drive related to finance.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "finance",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me emails with attachments from last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello, is there a meeting scheduled for tomorrow?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-04T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all files related to 'Project X' in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project X",
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me the latest emails from Sarah or sarah.jones@example.com",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {
+          "from": [
+            "Sarah",
+            "sarah.jones@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Any new messages today?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": "2024-11-03T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheet in my Google Drive related to Q4 budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q4 budget",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all documents from last month in Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2024-10-03T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey, what's up?",
+    "data": {
+      "answer": "Not much, just here to help!  What can I do for you?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me recent PDFs from the marketing team in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails to jane.doe@example.com about the project proposal.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project proposal",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find presentations from last year related to the Alpha project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Alpha project",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": "2023-11-03T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all events scheduled for next week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What are my upcoming meetings with Sarah?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Sarah",
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello, is there any new message in slack today?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": "2024-11-03T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all forms in Drive related to employee onboarding.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "employee onboarding",
+      "filters": {
+        "app": "google-drive",
+        "entity": "form",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me emails with attachments from support@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "from": [
+            "support@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Any files related to the project X?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project X",
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all documents from last week related to Project Zenith.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "prev",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Zenith",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheet on Q3 sales figures.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q3 sales figures",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails from john.doe@example.com about the budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": "budget",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "List the oldest presentations in my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all PDFs from this month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-11-01T00:00:00",
+        "endTime": "2024-11-30T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey, how's it going?",
+    "data": {
+      "answer": "I'm doing well, thanks! How about you?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me emails to jane.doe@example.com from last year.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2023-11-01T00:00:00",
+        "endTime": "2024-11-01T00:00:00",
+        "sortDirection": "desc",
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "What's the date?",
+    "data": {
+      "answer": "Today is November 1st, 2024.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all documents related to the marketing campaign.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing campaign",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me recent spreadsheets and presentations.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all emails with 'urgent' in the subject from last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "urgent",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-01T00:00:00",
+        "endTime": "2024-10-31T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me the emails cc'd to support@example.com about the new feature.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": "new feature",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "cc": [
+            "support@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from last week related to the marketing campaign.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing campaign",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheet on the project Xyne.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project Xyne",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me a summary of my meetings next week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails from john.doe@example.com about the project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me the latest presentations from the sales team.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "sales team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What time is it in London?",
+    "data": {
+      "answer": "I do not have access to real-time information, including the current time in specific locations.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find documents related to 'budget' from last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "budget",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2024-10-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me my next meeting.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What is the weather like today?",
+    "data": {
+      "answer": "I'm sorry, I don't have access to real-time weather information.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me all PDFs from this year.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-01-01T00:00:00",
+        "endTime": "2024-12-31T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey, how are you doing?",
+    "data": {
+      "answer": "I'm doing well, thanks for asking! How are you?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find recent emails to support@example.com about billing issues.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "billing issues",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {
+          "to": [
+            "support@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me all the events scheduled for next month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-12-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What did I ask earlier about the project?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": true,
+      "type": "SearchWithoutFilters",
+      "filterQuery": "project",
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me all the Word documents related to 'Marketing Plan' from this year.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Marketing Plan",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2024-01-01T00:00:00",
+        "endTime": "2024-12-31T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all documents from last week related to the \"Project Zenith\" in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "prev",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Zenith",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheets related to Q4 budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q4 budget",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails from john.doe@example.com about the marketing campaign.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": "marketing campaign",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Hello! What's the weather like in London today?",
+    "data": {
+      "answer": "I'm sorry, I don't have access to real-time weather information.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all PDFs in my Google Drive that mention \"budget analysis\".",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "budget analysis",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey there!  What time is it in Tokyo?",
+    "data": {
+      "answer": "I do not have access to real-time information, such as the current time in specific locations.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all presentations from this month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": "2024-11-01T00:00:00",
+        "endTime": "2024-11-30T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What did I ask you earlier?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": true,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find emails to jane.doe@example.com with \"project update\" in the subject.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": "project update",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me recent files related to marketing from Google Drive, please.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing",
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me all emails from last month cc'd to support@example.com and bob.smith@example.com",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {
+          "cc": [
+            "support@example.com",
+            "bob.smith@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Any upcoming events in my calendar?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all the slides related to the new product launch.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "new product launch",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from John Doe from last week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {
+          "from": [
+            "John Doe"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find the latest Google Drive spreadsheets related to the budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "budget",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What are my upcoming meetings?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Good morning!  What's the weather like in London?",
+    "data": {
+      "answer": "Good morning! I'm afraid I don't have access to real-time weather information.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails from jane.doe@example.com about the project?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "from": [
+            "jane.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me all the PDFs in my Drive from last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-10-03T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey, what time is it in New York?",
+    "data": {
+      "answer": "Hey! I do not have access to real-time information, including time zones.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me a summary of recent Slack messages about the marketing campaign.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing campaign",
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all presentations from the last 2 weeks.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": "2024-10-20T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello there!",
+    "data": {
+      "answer": "Hello! How can I help you today?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find emails sent to support@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "support@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "What documents do I have related to Project X?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project X",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Are there any new events scheduled for next week?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me the emails with attachments from last year.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2023-11-03T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all CSV files in my Drive related to sales.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "sales",
+      "filters": {
+        "app": "google-drive",
+        "entity": "csv",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all documents related to Project Chimera from the last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Chimera",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2024-02-27T00:00:00",
+        "endTime": "2024-03-27T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheets in my Google Drive related to Q3 budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q3 budget",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello!  Could you tell me about my upcoming meetings?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails from john.doe@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "List all presentations from the marketing team.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey there! What's up?",
+    "data": {
+      "answer": "Not much, just here to help!  What can I do for you?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all files related to the Alpha project, specifically PDFs and Docs.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Alpha project",
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails to jane.doe@example.com and cc'd to marketing@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ],
+          "cc": [
+            "marketing@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find recent events in my calendar from last week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "prev",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-03-18T00:00:00",
+        "endTime": "2024-03-24T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What are my meetings scheduled for next week?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-03-25T00:00:00",
+        "endTime": "2024-04-01T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all the CSV files in my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "csv",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Any Slack messages from David today?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "David",
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": "2024-03-27T00:00:00",
+        "endTime": "2024-03-27T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "How are you?",
+    "data": {
+      "answer": "I am doing well, thank you for asking!",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from last week about the project X.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project X",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all upcoming meetings for next week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me the oldest documents in my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me a summary of the latest Slack messages from the #project-alpha channel.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "#project-alpha",
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What time is it in New York?",
+    "data": {
+      "answer": "I'm sorry, I cannot provide real-time information, such as the current time.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all PDF files from this month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-11-01T00:00:00",
+        "endTime": "2024-11-30T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What did I ask you before?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": true,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find presentations related to the marketing strategy from last quarter.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing strategy",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": "2024-07-01T00:00:00",
+        "endTime": "2024-09-30T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello, is there any new event scheduled for today?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-03T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What are my meetings for tomorrow?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-04T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me emails to support@example.com",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "support@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from last week related to the Alpha project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Alpha project",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest Google Doc related to the marketing campaign.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing campaign",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me the oldest spreadsheets in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What is the weather like in London?",
+    "data": {
+      "answer": "I'm sorry, I don't have access to real-time weather information.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all PDFs in Drive from last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-10-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello, how are you doing today?",
+    "data": {
+      "answer": "I'm doing well, thank you for asking! How are you?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all recent presentations from the design team.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "design team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me emails to marketing@example.com about the budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "budget",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "marketing@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find all documents related to Project Xyne in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Xyne",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What were my meetings last Tuesday?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "prev",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-10-29T00:00:00",
+        "endTime": "2024-10-29T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me a summary of the conversation so far.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": true,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all Slack messages from the #general channel mentioning \"project update\".",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "#general channel, project update",
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey, what are my upcoming appointments for next week?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey there! What's the weather like in San Francisco today?",
+    "data": {
+      "answer": "Hello! I'm sorry, I don't have access to real-time information like weather forecasts.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from last week related to the Acme project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Acme project",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all documents in Google Drive related to the marketing campaign.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing campaign",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello, how are you doing?",
+    "data": {
+      "answer": "I'm doing well, thank you! How can I assist you today?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me the latest spreadsheets from the finance team.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "finance team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all PDFs in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me presentations from last month about Q3 results.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q3 results",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": "2024-10-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find recent emails to sarah.jones@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {
+          "to": [
+            "sarah.jones@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Give me all the documents and spreadsheets related to Project X from this year.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project X",
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": "2024-01-01T00:00:00",
+        "endTime": "2024-12-31T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails cc'd to team@example.com and from David.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "cc": [
+            "team@example.com"
+          ],
+          "from": [
+            "David"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "What was my last meeting about?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "prev",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": 1,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all files in my Google Drive that are older than 6 months.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": "2024-05-03T23:59:59",
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hi, how's it going?",
+    "data": {
+      "answer": "It's going great, thanks for asking! How can I help you today?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What's the weather like in San Francisco today?",
+    "data": {
+      "answer": "I'm sorry, I don't have access to real-time weather information.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello!  What did I ask earlier about the marketing campaign?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": true,
+      "type": "SearchWithoutFilters",
+      "filterQuery": "marketing campaign",
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me the oldest documents from my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all PDF files in my Drive from the last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-10-28T00:00:00",
+        "endTime": "2024-11-27T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me presentations from the marketing team.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey, what are my upcoming meetings next week?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-28T00:00:00",
+        "endTime": "2024-12-04T23:59:59",
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find emails to support@example.com about the bug fix.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "bug fix",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "support@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me recent files from John Doe in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "John Doe",
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "I need all the powerpoint presentations related to Project X.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project X",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What documents do I have from last year?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2023-11-27T00:00:00",
+        "endTime": "2024-11-27T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find emails with the subject 'Project Alpha' sent to jane.doe@example.com and cc'd to team@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Alpha",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ],
+          "cc": [
+            "team@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheet related to the marketing project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing project",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello!  What are my upcoming meetings next week?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all documents in my Google Drive from last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2024-10-03T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me the oldest emails in my inbox.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails to support@example.com about billing issues.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "billing issues",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "support@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find presentations related to Q4 budget from the finance team.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q4 budget finance team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What was my last meeting with Sarah?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "prev",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Sarah",
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me recent Slack messages from #general channel.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "#general channel",
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all PDF files related to the 'Project Zenith' in my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Zenith",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me emails from 'Alice' and 'Bob' this month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-11-01T00:00:00",
+        "endTime": "2024-11-30T23:59:59",
+        "sortDirection": "desc",
+        "intent": {
+          "from": [
+            "Alice",
+            "Bob"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Any new events scheduled for tomorrow?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-05T00:00:00",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all contacts from the marketing department.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing department",
+      "filters": {
+        "app": "google-workspace",
+        "entity": "Contacts",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheet related to Q4 budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q4 budget",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Good morning! What are my upcoming meetings?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all documents in my Google Drive older than October 1st, 2024.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": "2024-10-01T23:59:59",
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails from Sarah; What's the subject?",
+    "data": {
+      "answer": null,
+      "queryRewrite": "Find emails from Sarah. What are their subjects?",
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Sarah",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me the details of my last meeting with Alex.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "prev",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Alex",
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me the newest presentations from the marketing team.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all PDFs related to the project Xyne.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project Xyne",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello, is there a meeting scheduled for next week?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the oldest files in my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me all recent documents related to the Acme Corp project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Acme Corp project",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me my calendar for next month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": null,
+        "count": null,
+        "startTime": "2024-11-03T00:00:00",
+        "endTime": "2024-12-02T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all documents related to Project Zenith from the last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Zenith",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2024-02-28T00:00:00",
+        "endTime": "2024-03-29T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheets from the marketing team.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me the oldest files in my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What is today's date?",
+    "data": {
+      "answer": "Today is March 29, 2024.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me presentations from last week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": "2024-03-25T00:00:00",
+        "endTime": "2024-03-29T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find PDFs related to the 'Q4 Report'.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q4 Report",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all events scheduled for next week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-03-29T00:00:00",
+        "endTime": "2024-04-05T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me recent files shared with me.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails to marketing@example.com from last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-02-29T00:00:00",
+        "endTime": "2024-03-29T23:59:59",
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "marketing@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find documents related to the 'Acme Corp' project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Acme Corp project",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello there! How's your day going?",
+    "data": {
+      "answer": "My day is going well, thank you for asking! How can I assist you today?",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheet from the marketing team in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Good morning!  What are my upcoming meetings for next week?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List the oldest documents in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey there! What's the weather like in London today?",
+    "data": {
+      "answer": "I'm sorry, I don't have access to real-time weather information.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me emails from john.doe@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me the PDFs in my Drive related to the marketing campaign.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing campaign",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails to jane.doe@example.com and cc'd to team@example.com about the budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": "budget",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ],
+          "cc": [
+            "team@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find presentations from the last month about the new product launch.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "new product launch",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": "2024-10-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What time is it in New York City?",
+    "data": {
+      "answer": "I do not have access to real-time information, including time zones.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all my files from this year.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": "2024-01-01T00:00:00",
+        "endTime": "2024-12-31T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Upcoming events next month?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-12-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "I need all emails related to the 'Project X' from last year.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project X",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2023-01-01T00:00:00",
+        "endTime": "2023-12-31T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me a summary of all recent Slack messages.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hi, show me all my contacts from Google Workspace",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-workspace",
+        "entity": "Contacts",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheet from the marketing team on Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me the oldest documents in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all PDF files from this month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-26T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me my calendar events for next week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find presentations related to the project X.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project X",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me recent Slack messages from @user123.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "@user123",
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find emails to jane.doe@example.com and cc'd to boss@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ],
+          "cc": [
+            "boss@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "List all forms in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "form",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me a summary of the project meeting.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project meeting",
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "When is my next meeting with David?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "David",
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest PowerPoint presentations in my Google Drive related to Project Zenith.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Zenith",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey, what's the weather like in London?",
+    "data": {
+      "answer": "I'm sorry, I don't have access to real-time weather information.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails to sarah.jones@example.com about the marketing campaign?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing campaign",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "sarah.jones@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me all spreadsheets related to Q3 budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q3 budget",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find recent files shared with me on Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What's my next meeting with Alice?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Alice",
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me PDFs from last year in my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2023-11-03T00:00:00",
+        "endTime": "2024-11-02T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails with 'urgent' in the subject from anyone?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "urgent",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all documents and spreadsheets related to the 'Alpha Project' in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Alpha Project",
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from last week related to the 'Acme Project'.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Acme Project",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheet about Q3 budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q3 budget",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me the oldest documents in my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me presentations from the last month related to Project Zenith.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Zenith",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": "2024-10-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey!",
+    "data": {
+      "answer": "Hi there!",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all pdf files in my Drive that are newer than October 1st, 2024.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-10-01T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails to support@example.com",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "support@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find documents related to the 'alpha project' from last year.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "alpha project",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2023-11-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all folders in my drive containing 'financial reports'.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "financial reports",
+      "filters": {
+        "app": "google-drive",
+        "entity": "folder",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest spreadsheet related to Q4 sales figures.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q4 sales figures",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails from john.doe@example.com?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "List all meetings scheduled for next week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-04T00:00:00",
+        "endTime": "2024-11-10T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me recent PDFs from the Marketing team in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find presentations about the new product launch.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "new product launch",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails to and from Alice last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Alice",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Any new messages from the project team?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project team",
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all documents related to 'budget proposal' from October.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "budget proposal",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": "2024-10-01T00:00:00",
+        "endTime": "2024-10-31T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me the latest Google Slides presentation.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from last week related to the \"Project Zenith\" project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Zenith",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the oldest documents in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "asc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me a summary of recent Slack messages from the marketing team.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all spreadsheets modified in the last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": "2024-10-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me the latest presentations from the project kickoff.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project kickoff",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all PDFs related to the marketing campaign from this year.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing campaign",
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-01-01T00:00:00",
+        "endTime": "2024-12-31T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What did I ask earlier about the Acme project?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": true,
+      "type": "SearchWithoutFilters",
+      "filterQuery": "Acme project",
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me emails to jane.doe@example.com and cc'd to finance@example.com",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "GetItems",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ],
+          "cc": [
+            "finance@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Give me all Word documents related to the Q3 report.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q3 report",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find any recent emails from Boaz or Sarah.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me my latest Google Drive documents related to the Alpha project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Alpha project",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find emails from john.doe@example.com about the budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "budget",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Show me all spreadsheets from last week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": "2023-10-19T00:00:00",
+        "endTime": "2023-10-26T00:00:00",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails sent to jane.doe@example.com and cc'd to marketing@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ],
+          "cc": [
+            "marketing@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "List all PDF files in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find presentations related to the Beta project from last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Beta project",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": "2023-09-26T00:00:00",
+        "endTime": "2023-10-26T00:00:00",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all files in my Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What did you say before?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": true,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Give me a summary of the latest Slack messages.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "slack",
+        "entity": "message",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find emails with 'project update' in the subject from Sarah.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project update",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all documents in Google Drive related to Project X.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project X",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List the latest spreadsheets from the Marketing team in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all PDFs in my Google Drive from last month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-10-27T00:00:00",
+        "endTime": "2024-11-26T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails to jane.doe@example.com with 'project update' in the subject.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project update",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "jane.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Find presentations in Google Drive mentioning 'Q4 results'.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q4 results",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all events from next week.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-27T00:00:00",
+        "endTime": "2024-12-04T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What are my upcoming meetings for next month?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": "2024-11-27T00:00:00",
+        "endTime": "2024-12-27T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all files in Google Drive created by John Smith.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "John Smith",
+      "filters": {
+        "app": "google-drive",
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all emails from last week related to the marketing project.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing project",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": "2024-02-26T00:00:00",
+        "endTime": "2024-03-04T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find the latest Google Doc in my Drive about the budget.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "budget",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all spreadsheets from this month.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "sheets",
+        "count": null,
+        "startTime": "2024-03-01T00:00:00",
+        "endTime": "2024-03-31T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Emails from john.doe@example.com about the project X.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "project X",
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "from": [
+            "john.doe@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "How are you doing today?",
+    "data": {
+      "answer": "I'm doing well, thank you for asking!",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "List all PDF files from last month in my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-02-01T00:00:00",
+        "endTime": "2024-02-29T23:59:59",
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find presentations related to 'Project Alpha'.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Project Alpha",
+      "filters": {
+        "app": "google-drive",
+        "entity": "slides",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me emails to marketing@example.com and cc'd to sales@example.com.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "gmail",
+        "entity": "mail",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {
+          "to": [
+            "marketing@example.com"
+          ],
+          "cc": [
+            "sales@example.com"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "query": "Hello, how's the weather?",
+    "data": {
+      "answer": "Hello! I'm afraid I don't have access to real-time weather information.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Next meeting with the client team?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": "next",
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "client team",
+      "filters": {
+        "app": "google-calendar",
+        "entity": "event",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Find all documents related to 'Q4 projections' in Google Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "Q4 projections",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What's the time in New York?",
+    "data": {
+      "answer": "I'm sorry, I cannot provide real-time information, such as the current time in specific locations.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hello!  Could you summarize the conversation so far?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": true,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "What documents do I have from the marketing team?",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": "marketing team",
+      "filters": {
+        "app": "google-drive",
+        "entity": "docs",
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Hey there! What's the date today?",
+    "data": {
+      "answer": "Today is November 3rd, 2024.",
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithoutFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": null,
+        "entity": null,
+        "count": null,
+        "startTime": null,
+        "endTime": null,
+        "sortDirection": null,
+        "intent": {}
+      }
+    }
+  },
+  {
+    "query": "Show me all pdf files from last month in my Drive.",
+    "data": {
+      "answer": null,
+      "queryRewrite": null,
+      "temporalDirection": null,
+      "isFollowUp": false,
+      "type": "SearchWithFilters",
+      "filterQuery": null,
+      "filters": {
+        "app": "google-drive",
+        "entity": "pdf",
+        "count": null,
+        "startTime": "2024-10-04T00:00:00",
+        "endTime": "2024-11-03T23:59:59",
+        "sortDirection": "desc",
+        "intent": {}
+      }
+    }
+  }
+]

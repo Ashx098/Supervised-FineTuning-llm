@@ -1,0 +1,18 @@
+[project]
+name = "finetuning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "bitsandbytes>=0.46.1",
+    "colorama>=0.4.6",
+    "datasets>=4.0.0",
+    "google-generativeai>=0.8.5",
+    "langflow>=1.5.0.post1",
+    "litellm>=1.60.2",
+    "peft>=0.16.0",
+    "torch>=2.7.1",
+    "transformers>=4.46.0",
+    "trl>=0.17.0",
+]

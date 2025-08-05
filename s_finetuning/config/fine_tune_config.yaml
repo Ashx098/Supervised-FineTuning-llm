@@ -1,0 +1,43 @@
+model_id: "google/gemma-3-27b-it" 
+output_dir: "fine_tuned_model"
+new_model_name: "gemma-27b-qlora-json-output"
+
+quantization_args:
+  load_in_4bit: true
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_compute_dtype: "bfloat16"
+  bnb_4bit_use_double_quant: true
+
+lora_args:
+  r: 16
+  lora_alpha: 32
+  target_modules: "all-linear"
+  lora_dropout: 0.05
+  bias: "none"
+  task_type: "CAUSAL_LM"
+
+training_args:
+  num_train_epochs: 3
+  per_device_train_batch_size: 1
+  gradient_accumulation_steps: 4
+  optim: "paged_adamw_8bit"
+  learning_rate: 0.0002
+  lr_scheduler_type: "cosine"
+  save_strategy: "epoch"
+  logging_steps: 25
+  max_steps: -1
+  warmup_ratio: 0.03
+  fp16: false
+  bf16: true
+  group_by_length: true
+  push_to_hub: false
+  report_to: "tensorboard"
+  overwrite_output_dir: true
+  disable_tqdm: false
+  gradient_checkpointing: true
+  max_grad_norm: 0.3
+
+dataset_config:
+  data_file: "training_data.json"
+  processed_data_output: "fine_tuning_data_new_fresh.json"
+  max_seq_length: 2048
